@@ -20,11 +20,3 @@ This is a **powerful chess blindfold trainer** built for chess enthusiasts of al
 
 ---
 
-## How to Use
-
-1. **Open `index.html`** in your browser.
-2. **Select your rating** using the slider.
-3. **Choose your difficulty** (Easy, Normal, Hard).
-4. **Adjust total pieces** (or check "Ignore" to skip).
-5. **Click “Get Puzzle”** to generate a random FEN puzzle.
-6. **Visualize** the position in your mind and try to calculate the best moves.
