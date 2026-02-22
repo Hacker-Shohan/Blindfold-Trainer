@@ -7,11 +7,19 @@
 </head>
 <body class="dark">
 
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+        Loading puzzle database... ⏳
+    </div>
+
+    <!-- Dark/Light Mode -->
     <button id="modeToggle">Light Mode</button>
 
     <h1>Blindfold Trainer</h1>
 
+    <!-- Control Panel -->
     <div class="control-panel">
+
         <!-- Rating -->
         <div class="control-item">
             <label>Rating: <span id="ratingValue">1300</span></label>
@@ -30,7 +38,8 @@
 
         <!-- Pieces -->
         <div class="control-item">
-            <label>Pieces: <span id="piecesValue">15</span>
+            <label>
+                Pieces: <span id="piecesValue">15</span>
                 <input type="checkbox" id="ignorePieces" title="Ignore pieces"> Ignore
             </label>
             <input type="range" id="piecesSlider" min="3" max="32" step="1" value="15">
@@ -40,13 +49,25 @@
         <div class="control-item">
             <button id="generateBtn">Get Puzzle</button>
         </div>
+
     </div>
 
+    <!-- Puzzle Output -->
     <div id="output">Your puzzle will appear here...</div>
+
+    <!-- Answer Section -->
+    <div class="answer-section">
+        <h3>Your Answer</h3>
+        <div class="answer-box">
+            <input type="text" id="answerInput" placeholder="Enter move (e.g., e4e6)">
+            <button id="submitAnswerBtn">Submit</button>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
-        Made with ❤️ by <a href="https://www.facebook.com/0Shohan0/" target="_blank">Shohan</a>
+        Made with ❤️ by 
+        <a href="https://www.facebook.com/0Shohan0/" target="_blank">Shohan</a>
     </footer>
 
     <script src="logic.js"></script>
